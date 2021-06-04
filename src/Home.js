@@ -52,11 +52,11 @@ function Home() {
         />
 
         <Product   
-        id = "351243"
-        title = "Infinity (JBL) Glide 120 Metal in-Ear Wireless Flex Neckband with Bluetooth 5.0 and IPX5 Sweatproof (Black and Yellow)"
-        price = {1099}
-        rating = {5}
-        image = "https://images-eu.ssl-images-amazon.com/images/I/31N9z2rXiBL._SX300_SY300_QL70_FMwebp_.jpg"
+        id = "87468"
+        title = "Fossil Gen 5 Carlyle Touchscreen Men's Smartwatch with Speaker, Heart Rate, GPS and Smartphone Notifications "
+        price = {"22,995.00"}
+        rating = {4}
+        image = "https://images-na.ssl-images-amazon.com/images/I/71XWG48C-NL._UL1500_.jpg"
         />
 
         </div>
@@ -69,10 +69,10 @@ function Home() {
 
         <Product 
         id = "351243"
-        title = "Infinity (JBL) Glide 120 Metal in-Ear Wireless Flex Neckband with Bluetooth 5.0 and IPX5 Sweatproof (Black and Yellow)"
-        price = {1099}
+        title = "TeeBustrr Non-Woven Fabric Disposable Mask (Blue, Without Valve, Pack of 100) for Kids & Adults"
+        price = {"464.00"}
         rating = {5}
-        image = "https://images-eu.ssl-images-amazon.com/images/I/31N9z2rXiBL._SX300_SY300_QL70_FMwebp_.jpg"
+        image = "https://images-na.ssl-images-amazon.com/images/I/41ZLEmiv%2BkL.jpg"
         />
      
        
