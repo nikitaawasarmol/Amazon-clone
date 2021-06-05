@@ -1,0 +1,21 @@
+.row__images {
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+
+}
+.main {
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.row__image {
+    object-fit: contain;
+    /* width: 100%; */
+    max-height: 100px;
+    transition: transform 450ms;
+}
+.row__imageLarge {
+    max-height: 300px;
+}

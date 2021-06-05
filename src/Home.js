@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Home.css";
 import Product from './Product';
+import Row from './Row';
 
 function Home() {
     return (
@@ -28,8 +29,109 @@ function Home() {
         image = "https://images-na.ssl-images-amazon.com/images/I/81BvxQbA0TL._SL1500_.jpg"
         />
 
-        </div>
+        <Product   
+        id = "351243"
+        title = "Yuwell 8F-5A Portable Oxygen Concentrator Machine (93% concentration at 5L) "
+        price = {"40,811.00"}
+        rating = {4}
+        image = "https://images-na.ssl-images-amazon.com/images/I/610nk4fp9MS._SL1500_.jpg"
+        />
+{/* 
+        <Product  className = "secure" 
+        title = "Sign in for your best experience"
+        /> */}
 
+        </div>
+{/* sliding images */}
+        <div className= "row__images">
+            
+        <Row
+        isLargeImage
+        image = "https://m.media-amazon.com/images/I/51jLRfblNvL._AC_SY200_.jpg"
+        
+        />
+         <Row
+         isLargeImage
+        image = "https://m.media-amazon.com/images/I/51kmBJH8DUL._AC_SY200_.jpg"
+        />
+         <Row
+         isLargeImage
+        image = "https://m.media-amazon.com/images/I/41zA4WYVMbL._AC_SY200_.jpg"
+        />
+         <Row
+         isLargeImage
+        image = "https://m.media-amazon.com/images/I/516dW8K8z9S._AC_SY200_.jpg"
+        />
+         <Row
+         isLargeImage
+        image = "https://m.media-amazon.com/images/I/51WNeLcLErL._AC_SY200_.jpg"
+        />
+         <Row
+         isLargeImage
+        image = "https://m.media-amazon.com/images/I/41rYoyUG3NL._AC_SY200_.jpg"
+        />
+         <Row
+         isLargeImage
+        image = "https://m.media-amazon.com/images/I/41XZ2tARbJL._AC_SY200_.jpg"
+        />
+         <Row
+         isLargeImage
+        image = "https://m.media-amazon.com/images/I/41XZ2tARbJL._AC_SY200_.jpg"
+        />
+         <Row 
+         isLargeImage
+        image = "https://m.media-amazon.com/images/I/413zv7AQjlL._AC_SY200_.jpg"
+        />
+         <Row
+         isLargeImage
+        image = "https://m.media-amazon.com/images/I/41uXcq099NL._AC_SY200_.jpg"
+        />
+         <Row
+         isLargeImage
+        image = "https://m.media-amazon.com/images/I/41e+So90OrL._AC_SY200_.jpg"
+        />
+         <Row
+         isLargeImage
+        image = "https://m.media-amazon.com/images/I/51YI+nhjTJS._AC_SY200_.jpg"
+        />
+         <Row
+         isLargeImage
+        image = "https://m.media-amazon.com/images/I/41jLs9gtQDL._AC_SY200_.jpg"
+        />
+         <Row
+         isLargeImage
+        image = "https://m.media-amazon.com/images/I/41Ww30n4jlL._AC_SY200_.jpg"
+        />
+         <Row
+         isLargeImage
+        image = "https://m.media-amazon.com/images/I/51lI9vOLFgL._AC_SY200_.jpg"
+        />
+           <Row
+           isLargeImage
+        image = "https://m.media-amazon.com/images/I/51EaXU5jTjL._AC_SY200_.jpg"
+        />
+        
+        <Row
+        isLargeImage
+        image = "https://m.media-amazon.com/images/I/315DLTrZy1S._AC_SY200_.jpg"
+        />
+        
+        <Row
+        isLargeImage
+        image = "https://m.media-amazon.com/images/I/41Is7HVqqdL._AC_SY200_.jpg"
+        />
+        
+        <Row
+        isLargeImage
+        image = "https://m.media-amazon.com/images/I/31wTI3zJy7L._AC_SY200_.jpg"
+        />
+        
+        
+
+     
+
+        </div>
+      
         
         
          {/* 2nd row */}
