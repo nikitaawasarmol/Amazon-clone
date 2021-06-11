@@ -10,7 +10,7 @@ const firebaseApp = firebase.initializeApp({
 
 });
 
-// const db = firebaseApp.firestore();
-const auth = firebasea.auth();
+const db = firebaseApp.firestore();
+const auth = firebase.auth();
 
 export { db, auth };
