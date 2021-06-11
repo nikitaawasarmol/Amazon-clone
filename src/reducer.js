@@ -1,14 +1,12 @@
 export const initialState = {
-    basket: [{
-        id: "351243",
-        title: "Infinity (JBL) Glide 120 Metal in-Ear Wireless Flex Neckband with Bluetooth 5.0 and IPX5 Sweatproof (Black and Yellow)",
-        price: 1099,
-        rating : 5,
-        image: "https://images-eu.ssl-images-amazon.com/images/I/31N9z2rXiBL._SX300_SY300_QL70_FMwebp_.jpg"
-      
-    }],
-    user: null,
+    basket: [],
+    user: null
 };
+
+
+export const getBasketTotal = (basket) =>
+basket?.reduce((amount, item) => item.price + amount, 0);
+
 
 const reducer = (state, action) => {
     console.log(action);
@@ -28,11 +26,14 @@ const reducer = (state, action) => {
                 newBasket.splice(index, 1);
                 
             } else {
-                console.warn (`Cant remove product (id: ${action.id}) as its not in the basket`)
+                console.warn (`Cant remove product (id: ${action.id}) as its not in the basket`);
             }
 
 
-            return { ...state, basket: newBasket } ; 
+            return {
+                 ...state, 
+                 basket: newBasket, 
+                } ; 
        
         default:
             return state;

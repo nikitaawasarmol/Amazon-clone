@@ -22,13 +22,13 @@ Continue shopping on the Amazon.in homepage, learn about today's deals, or visit
                 <h2 className = "checkout__title">Your Amazon Cart</h2>
 
                 {/* products */}
-                {basket.map(item => (
+                {basket?.map((item) => (
                  <CheckoutProduct 
                  id = {item.id}
                  title = {item.title}
                  image = {item.image}
                  price = {item.price}
-                 rating = {item.price}
+                 rating = {item.rating}
                  />
                 ))}
                
@@ -36,10 +36,10 @@ Continue shopping on the Amazon.in homepage, learn about today's deals, or visit
         )}
         </div>
         {basket.length > 0 && (
-            <div className = "Checkout__right">
-                <h1>Subtotal</h1>
-                <Subtotal />
-                 </div>
+        <div className = "Checkout__right">
+       
+        <Subtotal />
+         </div>
         )}
         </div>
     )
