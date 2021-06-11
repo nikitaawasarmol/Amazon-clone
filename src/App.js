@@ -5,8 +5,21 @@ import Header from "./Header";
 import Home from "./Home";
 import Checkout from './Checkout';
 import Login from "./Login";
+import {auth} from "./firebase";
+import { useStateValue } from "./StateProvider";
 
 function App() {
+  const [{basket}, dispatch] = useStateValue();
+
+  useEffect(() => {
+    auth.onAuthStateChanged((authUser) => {
+      if (authUser) {
+        // user is logged in
+      } else {
+        // user is lolgged out
+      }
+    })
+  }, [])
   return (
     <Router>
     <div className="app">
